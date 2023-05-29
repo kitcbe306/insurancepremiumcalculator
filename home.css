@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    }
+    body{ height: 100vhss;
+        background-size: cover;
+        background-position: center;
+    }
+    .load{
+        animation: slide 3s;
+    }
+    .slider{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        animation: slide 40s infinite;
+    }
+    #cst_bt{
+
+    background: black;
+    border-top: black;
+    
+    border-radius: 20px;
+    padding: 15px 35px;
+
+    }
+    @keyframes slide{
+        0%{
+               background-image: url(mianpic.jpg);
+        }
+        20%{
+                background-image: url(mianpic.jpg);
+        }
+       
+        40.1%{
+        background-image: url(family1.jpeg);
+        }
+        60%{
+            background-image: url(family1.jpeg);
+        }
+        60.1%{
+            background-image: url(family2.jpg);
+        }
+        70%{
+            background-image: url(family2.jpg);
+        }
+        70.1%{
+            background-image: url(family3.jpg);
+        }
+        80%{
+            background-image:  url(family4.jpg);
+        }
+        100%{
+            background-image: url(family4.jpg);
+        }
+    }
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background: black;
+}
+.logo{
+    font-size:30PX;;
+    font-weight: bold;
+    color:#99F910;
+    letter-spacing: 1.5px;
+    cursor: pointer ;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    color: black;
+    padding: 0px 20px;
+}
+a,button{
+
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+button{
+    background: rgba(0,0,0,.2);
+    border: 5px solid #99F910;
+    border-radius: 50px;
+    padding: 9px 25px;
+}
+
+nav li a:hover{
+    color:#99F910 ;
+    transition: all 0.5s ease 0s;
+}
+button:hover{
+     color: #99F910;
+     transition: all 0.4sec ease 0s;
+
+}
+h1{
+    padding-top: 8CM;
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+    color:whitesmoke;
+}
+ h1{
+    padding-top: 8CM;
+     justify-content: center;
+     text-align: center;
+     font-size: 100px;
+     color:whitesmoke;
+    }
+form{
+    height: 35rem;
+    width: 40rem;
+    justify-items:right ;
+    font-size: medium;
+    display: flex;
+    flex-direction:column;
+    background:rgb(240, 240, 240);
+
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+
+}
+input{
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    font-size: medium;
+    border-radius: 10px;
+    background:transparent;    
+    color:black;
+    cursor: pointer;
+}
+
+
